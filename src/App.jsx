@@ -1,8 +1,13 @@
-import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import CompanyLogo from "./components/CompanyLogo";
+import PurposeSection from "./components/PurposeSection";
+import FeaturesSection from "./components/FeaturesSection";
+import ScheduleSection from "./components/ScheduleSection";
+import MonitorSection from "./components/MonitorSection";
+import PricingSection from "./components/PricingSection";
+
 
 const App = () => {
   return (
@@ -12,12 +17,12 @@ const App = () => {
         <Navbar />
         <Hero />
         <CompanyLogo />
-        {/* <PurposeSection />
+        <PurposeSection />
         <FeaturesSection />
-        <ScheduleSection />
+        <ScheduleSection/>
         <MonitorSection />
         <PricingSection />
-        <ServicesSection />
+        {/* <ServicesSection />
         <TestimonialsSection />
         <NewsletterSection />
         <Footer /> */}
